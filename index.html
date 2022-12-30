@@ -3,14 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=h, initial-scale=1.0" />
+    <link rel="stylesheet" href="productos.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Barberia Alura</title>
   </head>
   <body>
-
     <header>
-        <h1 class="titulo-principal">Barberia Alura</h1>
+      <h1 class="titulo-principal">Barberia Alura</h1>
+      <div class="container-header">
+        <h1><img src="imagenes/logo.png" /></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <img id="banner" src="banner/banner.jpg" />
@@ -28,7 +37,9 @@
           >Nuestra misiòn es:
           <strong
             >"Proprcionar autoestima y calidad de vida a nuestro
-            clientes"</strong>.</em>
+            clientes"</strong
+          >.</em
+        >
       </p>
 
       <p>
@@ -43,14 +54,19 @@
     <div class="diferenciales">
       <h3 class="titulo-center">Diferenciales</h3>
 
-      <ul>
+      <ul class="list-items">
         <li class="items">Atencion personalizada a los clientes</li>
         <li class="items">Espacio diferenciado</li>
         <li class="items">Localizacion</li>
         <li class="items">Profesionales calificados</li>
       </ul>
 
-      <img src="diferenciales/diferenciales.jpg" class="img-diferenciales">
+      <img src="diferenciales/diferenciales.jpg" class="img-diferenciales" />
     </div>
+
+    <footer>
+      <img src="imagenes/logo-blanco.png">
+      <p class="derechos">&copy Copyright Barberia Alura - 2022</p>
+    </footer>
   </body>
 </html>
